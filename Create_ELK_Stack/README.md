@@ -4,12 +4,13 @@ The files in this repository were used to configure the network depicted below.
 
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 
-Image File in Draw.io:
-https://app.diagrams.net/#G1lFBNNnV-qYdNJpSXesKTfW3OjQ3XAqp7
+Diagrams/Network_Diagram.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._
+
+Ansible/ansible.cfg
 
 This document contains the following details:
 - Description of the Topology
@@ -33,6 +34,7 @@ The jump box limits access to the network, by acting as a protected gateway avai
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 - _TODO: What does Filebeat watch for?
 Filebeat will forward new log events.
+
 - _TODO: What does Metricbeat record?
 Metricbeat will collect metrics and system service information
 
